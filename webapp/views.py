@@ -12,7 +12,7 @@ from .models import Customer,Restaurant,Item,Menu,Order,orderItem,User
 
 # Showing index page
 def index(request):
-	return render(request,'webapp/index.html',{})
+	return render(request,'webapp/home.html',{})
 
 def orderplaced(request):
 	return render(request,'webapp/orderplaced.html',{})
